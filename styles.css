@@ -1,0 +1,275 @@
+/*algemeen*/
+
+p {
+    font-size: 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 22px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0px;
+}
+
+img { 
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+}
+
+.intro {
+    color: white;
+    margin: 2px 35px 65px 35px;
+}
+
+body {
+    background-color: rgb(0,62,21);
+    margin: 0%;
+    padding: 0%;
+}
+/**/
+
+/*hoofdnavigatie*/
+
+.hoofd-nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0%;
+}
+
+.nav-img {
+    width: 95%;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.overzicht-nav { 
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(128,195,144);
+    background-color: rgb(0,62,21);
+    box-shadow: 3px 3px rgb(0,126,60);
+    border-radius: 2em;
+    padding: 9px 18px 9px 18px;
+    margin: 10px 13px 10px 2px;
+}
+
+.info-nav {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0,126,60);
+    background-color: rgb(128,195,144);
+    box-shadow: 4px 4px rgb(180,218,193);
+    border-radius: 2em;
+    padding: 9px 18px 9px 18px;
+    margin: 10px 13px 10px 2px;
+}
+
+.zelf-nav {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(94,74,153);
+    background-color: rgb(173,159,205);
+    box-shadow: 4px 4px rgb(212,206,232);
+    border-radius: 2em;
+    padding: 9px 18px 9px 18px;
+    margin: 10px 13px 10px 2px;
+}
+/**/
+
+/*welkomspagina*/
+
+.welkomspagina {
+    background-color: rgb(180,218,193);
+}
+
+.logo-welkompage {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.intro-welkom {
+    color: white;
+    font-size: 16px;
+    margin: 2px 30px 35px 30px;
+}
+.kijkjenemen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0,62,21);
+    color: rgb(212,206,232);
+    padding: 0px 10px 0px 30px;
+    border-radius: 30px;
+    box-shadow: 6px 6px rgb(0,126,60);
+    text-shadow: 1.5px 1.5px rgb(0,126,60);
+    margin: 0px 25px 25px 20px;
+}
+
+.text-kijkjenemen {
+    font-size: 26px;
+}
+
+
+/*overzichtpagina*/
+
+.overzichtpagina {
+    background-color: rgb(180,218,193);
+}
+
+.overzicht-navigatie {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(0,62,21);
+    color: rgb(212,206,232);
+    padding: 20px 15px 20px 0px;
+    border-radius: 25px;
+    box-shadow: 6px 6px rgb(0,126,60);
+    margin: 25px 25px 25px 20px;
+}
+
+.overzicht-img {
+    width: 95px;
+    height: 95px;
+   padding: 5px;
+   margin-right: 5px;
+   margin-left: 10px;
+}
+
+.pijltje {
+    width: 40px;
+    height: 40px;
+    margin: 4px 0px 4px 10px;
+    border: 2px solid rgb(0,126,60);
+    border-radius: 50px;
+}
+
+/*info pagina*/
+
+.voor-na-delen {
+    width: 95px;
+    height: 95px;
+}
+
+.voor-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(0,62,21);
+    background-color: rgb(212,206,232);
+    border: 1.5px solid rgb(212,206,232);
+    border-top-right-radius: 5em;
+    border-bottom-right-radius: 5em;
+    box-shadow: 8px 8px rgb(173,159,205);
+    padding: 25px 10px 25px 15px;
+    margin: 5px 15px 50px 0px;
+}
+
+.voor-rechts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: right;
+    color: rgb(0,62,21);
+    background-color: rgb(212,206,232);
+    border: 1.5px solid rgb(212,206,232);
+    border-top-left-radius: 5em;
+    border-bottom-left-radius: 5em;
+    box-shadow: 8px 8px rgb(173,159,205);
+    padding: 25px 15px 25px 10px;
+    margin: 5px 0px 50px 15px;
+}
+
+.na-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(212,206,232);
+    background-color: rgb(0,126,60);
+    border: 1.5px solid rgb(0,126,60);
+    border-top-right-radius: 5em;
+    border-bottom-right-radius: 5em;
+    box-shadow: 8px 8px rgb(128,195,144);
+    padding: 25px 10px 25px 15px;
+    margin: 5px 15px 60px 0px;
+}
+
+.na-rechts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: right;
+    color: rgb(212,206,232);
+    background-color: rgb(0,126,60);
+    border: 1.5px solid rgb(0,126,60);
+    border-top-left-radius: 5em;
+    border-bottom-left-radius: 5em;
+    box-shadow: 8px 8px rgb(128,195,144);
+    padding: 25px 15px 25px 10px;
+    margin: 5px 0px 60px 15px;
+}
+/**/
+
+
+/*zelf aanpakken pagina*/
+
+.stappen-img {
+   display: block;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.stapgetallen {
+    height: 60%;
+    width: 30%;
+    padding: 4px;
+}
+
+.oneven-stap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: rgb(128,195,144);
+    padding: 20px 15px 20px 0px;
+    border-radius: 20px;
+    box-shadow: 6px 6px rgb(180,218,193);
+    margin: 10px 21px 65px 15px;
+}
+
+.even-stap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: rgb(180,218,193);
+    padding: 20px 0px 20px 20px;
+    border-radius: 20px;
+    box-shadow: 6px 6px rgb(128,195,144);
+    margin: 50px 21px 65px 15px;
+}
+
+.stappentitels {
+    color: rgb(0,62,21);
+    padding-bottom: 4px;
+}
+
+
+/**/
